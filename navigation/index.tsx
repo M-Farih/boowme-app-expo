@@ -61,8 +61,7 @@ function BottomTabNavigator() {
       initialRouteName="TabOne"
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme].tint,
-        //overflow
-        tabBarStyle:{overflow:"hidden"}
+        tabBarStyle:{overflow:"hidden"}        //overflow for remove scrollbar
       }}>
       <BottomTab.Screen
         name="TabOne"
