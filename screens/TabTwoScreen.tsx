@@ -6,7 +6,7 @@ export default function TabTwoScreen() {
     <View className="flex-1 items-center justify-center">
       <Text className="text-white text-2xl">Tab Two</Text>
       <View
-        className="w-10/12 h-1 my-8"
+        className="w-10/12 h-px my-8"
         lightColor="#eee"
         darkColor="rgba(255,255,255,0.1)"
       />
